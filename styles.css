@@ -10,27 +10,28 @@ body{
 }
 
 .logo{
-    position: absolute;
-    left: 40px;
+    /* position: relative;
+    left: 40px; */
     width: 200px;
     height: 110px;
 }
 
+
 .nav{
     position: relative;
     top: 35px;
-    right: 40px;
+    /* right: 40px; */
 }
 
 .landing{
-    position: relative;
-    top: 75px;
+    /* position: relative;
+    top: 75px; */
 }
 
 
 .landing img{
     width: 100%;
-    height: 400px;
+    /* height: 400px; */
 }
 
 .landing div{
@@ -62,54 +63,54 @@ body{
 }
 
 .tiles h3{
-    text-align: center;
+    /* text-align: center; */
     padding-top: 12px;
-    position: relative;
-    right: 15px;
+    /* position: relative; */
+    /* right: 15px; */
 }
 
 .tiles p{
-    text-align: center;
+    /* text-align: center; */
     height: 180px;
     overflow: auto;
-    width: 300px;
+    /* width: 300px; */
 }
 
 .one{
-    max-width: 1070px;
-    position: relative;
-    bottom: 50px;
+    margin-top: 0;
   }
 
 .grid{
+    max-width: 1200px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
 .fimg img{
-    width: 600px;
-    height: 500px;
+    /* width: 600px;
+    height: 500px; */
+    max-width: 100%;
+    display: inherit;
 }
 
 .ftext{
     padding: 30px 0 0 30px;
-    background-color: #57575c;
-    color: #cc0202;
+    background-color: #cc0202;
+    color: #ffffff;
+}
+
+.ftext h1{
+    text-align: center;
 }
 
 .ftext h3{
-    padding-top: 10px;
-    color: #ffffff;
-}
-
-.ftext p{
-    color: #ffffff;
+    padding-top: 30px;
 }
 
 .urpan{
     text-align: center;
-    position: relative;
-    right: 20px;
+    /* position: relative;
+    right: 20px; */
 }
 
 footer{
@@ -120,11 +121,12 @@ footer{
 /* Page 2 CSS */
 
 .page2 img{
-    position: relative;
-    top: 50px;
+    /* position: relative;
+    top: 50px; */
     width: 100%;
-    height: 600px;
-    padding: 50px;
+    height: 500px;
+    padding: 0 50px 0 50px;
+    margin-top: 0;
 }
 
 .two{
@@ -142,11 +144,12 @@ footer{
 /* page 3 CSS */
 
 .page3 img{
-    position: relative;
-    top: 50px;
+    /* position: relative;
+    top: 50px; */
     width: 100%;
-    height: 600px;
-    padding: 50px;
+    height: 500px;
+    padding: 0 50px 0 50px;
+    margin-top: 0;
 }
 
 .three{
@@ -208,16 +211,17 @@ footer{
 /* page 5 CSS */
 
 .serv{
-    position: relative;
-    top: 50px;
+    /* position: relative;
+    top: 50px; */
     width: 100%;
-    height: 600px;
-    padding: 50px;
+    height: 500px;
+    padding: 0 50px 0 50px;
+    margin-top: 0;
 }
 
 .services{
     position: relative;
-    top: 150px;
+    top: 50px;
     left: 150px;
     width: 1050px;
 }
@@ -230,11 +234,10 @@ footer{
 /* page 6 CSS */
 
 .contact img{
-    position: relative;
-    top: 50px;
     width: 100%;
-    height: 600px;
-    padding: 50px;
+    height: 500px;
+    padding: 0 50px 0 50px;
+    margin-top: 0;
 }
 
 .address{
@@ -251,7 +254,71 @@ footer{
 }
 
 .contact2{
-    position: relative;
-    bottom: 610px;
-    left: 700px;
+    position: absolute;
+    top: 920px;
+    left: 750px;
+}
+
+.contact2 img{
+    width: 600px;
+    height: 600px;
+}
+
+
+@media only screen and (max-width:760px) {
+
+    .landing img{
+        margin-top: 30px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .landing div{
+        margin: auto;
+        width: 100%;
+        
+        text-align: center;
+        position: static;
+        /* bottom: 250px;
+        left: 15px; */
+        background-color: #cc0202;
+        color: #ffffff;
+    }
+
+    .landing p{
+        font-size: xx-small;
+    }
+
+    .tiles{
+        position: static;
+        padding: 0;
+        margin-top: 20px;
+    }
+
+    .grid{
+        display: flex;
+        /* grid-template-columns: 1fr; */
+        max-width: none;
+    }
+
+    .ftext{
+        /* margin-right: 20px; */
+        padding: 0 10px 0 10px;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .ftext h1{
+        font-size: 20px;
+    }
+
+    .ftext h3{
+        padding-top: 5px;
+        font-size: 16px;
+    }
+
+    .footer{
+        font-size: 10px;
+    }
+    
 }
