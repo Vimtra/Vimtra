@@ -320,5 +320,48 @@ footer{
     .footer{
         font-size: 10px;
     }
+
+    /* Page 2 */
+
+    .page2 img{
+        margin-top: 30px;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+
+    .mobile1{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .right{
+        width: auto;
+    }
+
+    /* Page 3 */
+
+    .page3 img{
+        margin-top: 30px;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .left1 img{
+        position: static;
+    }
+
+    .right1{
+        position: static;
+        width: auto;
+    }
     
 }
