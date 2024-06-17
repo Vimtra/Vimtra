@@ -23,6 +23,16 @@ body{
     /* right: 40px; */
 }
 
+.nav-link{
+    color: #525257;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.nav-link:hover{
+    color: #525257;
+}
+
 .landing{
     /* position: relative;
     top: 75px; */
@@ -430,4 +440,17 @@ footer{
 
 
     
+}
+
+    /* Protfolio page */
+
+.portfolio{
+    margin: 25px 25px 0 25px;
+    border: 5px solid #525257;
+    min-height: 70vh;
+    padding: 40px 40px 0 40px;
+}
+
+.portfolio a{
+    padding: 0 50px 0 20px;
 }
